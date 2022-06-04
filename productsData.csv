@@ -1,0 +1,14 @@
+﻿Product 1 details
+
+_id,price,pname,pcategory,productId,stockCount
+61d730f74a16da65afca02d8,"82321","nike","shoes","1","76"
+﻿Product 1 details
+
+﻿Product 2 details
+
+_id,price,pname,pcategory,productId,stockCount
+61d6f8784398a17539063dd8,"1800","addidas","shoes","2",30
+﻿Product 789456 details
+
+_id,price,pname,pcategory,productId,stockCount
+629b87f5867d83eb88307c7c,"555","Pant","Clothes","789456","99"

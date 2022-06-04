@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div>
+			<form align="left" action="/products/addProduct" method="POST">
+				<label>Product Name</label><br />
+				<input type="name" name="pname" required /><br />
+
+				<label>Product Id </label><br />
+				<input
+					type="number"
+					name="productId"
+					placeholder="999329932"
+					required
+				/><br />
+
+				<lable> Product Category</lable><br />
+				<input type="text" name="pcategory" /><br />
+
+				<label> Stock Count </label><br />
+				<input type="number" name="stockCount" required /><br />
+
+				<label>Price</label><br />
+				<input type="number" name="price" required /><br />
+
+				<br />
+				<input type="submit" name="btn" />
+			</form>
+		</div>
+	</body>
+</html>
